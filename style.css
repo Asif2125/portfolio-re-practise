@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 45px;
+}
+
 p {
     text-align: justify;
 }
@@ -15,7 +19,7 @@ p {
     color: yellowgreen;
 }
 
-section {
+.container {
     display: flex;
 }
 
@@ -41,4 +45,31 @@ a {
     background-image: linear-gradient(orange, tomato);
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+.experience-item {
+    width: 50%;
+    margin: 5%;
+    box-shadow: 15px 20px 40px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.last-part {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack {
+    border-left: 8px solid tomato;
+}
+
+#baby-web {
+    border-left: 8px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
